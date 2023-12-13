@@ -17,7 +17,7 @@ html{
 
 nav{
     display: flex;
-    position: fixed;
+    position: sticky;
     top: 0px;
     left: 0px;
     border-radius: 0;
@@ -28,7 +28,7 @@ nav{
     justify-content: space-between;
     text-decoration: none;
     z-index: 1;
-    background:transparent ;
+    background-image: url(image/grad-bg.jpg);
 }
 
 
@@ -39,7 +39,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: black;
+    color: #555;
     font-weight: bold;
 
 }
@@ -77,7 +77,7 @@ nav ul li a:hover{
 
 .slide-wrapper {
  
-    width: calc(728px * 4);
+    width: calc(728px * 5);
     animation: slide 10s ease infinite;
  }
   
@@ -100,15 +100,115 @@ nav ul li a:hover{
     margin-left: calc(-728px * 3);
   }
 }
-h1{
+
+.para{
+  padding-top: 30px;
+  padding: 10px;
+}
+
+.text1 h2{
     text-align: center;
+}
+
+.districts{
+  position: relative;
+  padding-top: 30px;
+  background-color: white;
+}
+.districts h2{
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: red;
 }
 .container {
   display: flex;
+  flex-direction: row;
+  box-shadow: gray;
 }
-.cards {
+
+.container ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+.ebotton {
   display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  flex-basis: 50%;
+  min-width: 300px; 
 }
+
+.btn{
+  display: inline-block;
+  background:rgb(0, 0, 0);
+  color: #ffffff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.4s;
+}
+.ebotton .btn:hover{
+  background: #dc0b0b;
+}
+.header{
+  background: radial-gradient(#fff,rgb(222, 222, 213))
+}
+
+.footer{
+  background: #000;
+  color: #8a8a8a;
+  font-size: 14px;
+  padding: 40px 0 10px;
+}
+.footer p{
+  color: #8a8a8a;
+
+}
+.footer a{
+  text-decoration: none;
+  color: #8a8a8a;
+}
+.footer a:hover{
+  color: white;
+}
+.footer h3{
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+  min-width: 250px;
+  margin-bottom: 20px;
+
+}
+.footer-col-1 {
+  flex-basis: 30%;
+}
+.footer-col-2 {
+  flex: 1;
+  text-align: center;
+
+}
+.footer-col-2 img{
+  width: 120px;
+  margin-bottom: 20px;
+}
+.footer-col-3 {
+  flex-basis: 12%;
+  text-align: center;
+}
+.footer-col-4 {
+  flex-basis: 12%;
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+}
+
 
 /* .container{
   width: 20rem;
