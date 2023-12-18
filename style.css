@@ -44,7 +44,7 @@ nav ul li a{
 
 }
 nav ul li a:hover{
-    color: yellow;
+    color: white;
 }
 .search input[type=text]{
     width:300px;
@@ -209,6 +209,10 @@ ul{
   list-style-type: none;
 }
 
+.container2{
+  padding: 100px;
+  
+}
 
 /* .container{
   width: 20rem;
