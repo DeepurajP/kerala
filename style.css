@@ -143,16 +143,16 @@ nav ul li a:hover{
 }
 
 .btn{
-  display: inline-block;
-  background:rgb(0, 0, 0);
-  color: #ffffff;
-  padding: 8px 30px;
-  margin: 30px 0;
-  border-radius: 30px;
-  transition: background 0.4s;
+    display: inline-block;
+    background:black;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.4s;
 }
-.ebotton .btn:hover{
-  background: #dc0b0b;
+.btn:hover{
+    background: #dc0b0b;
 }
 .header{
   background: radial-gradient(#fff,rgb(222, 222, 213))
